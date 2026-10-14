@@ -1,0 +1,9 @@
+{
+	"name": "folder-info",
+	"version": "1.0.0",
+	"private": false,
+	"type": "module",
+	"engines": {
+		"node": ">=20"
+	}
+}
