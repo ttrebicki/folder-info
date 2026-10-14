@@ -13,7 +13,7 @@ try {
 	dirInfo = await fs.readdir(currentDir, { withFileTypes: true });
 } catch (error) {
 	console.error(
-		`Error: folder ${userInputFolder || currentDir} can't be read or doesn't exist.`,
+		`error: could not read folder: ${userInputFolder || currentDir}`,
 	);
 	process.exitCode = 1;
 }
